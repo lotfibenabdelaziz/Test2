@@ -31,10 +31,12 @@ jobs:
         pip install -r requirements.txt
         pip install pytest docker
 
-    # Step 4: Run tests 
+        # Step 4: Run tests
     - name: Run tests
+      working-directory: ./Test  
       run: |
         pytest test_training.py
+
 
     # Step 5: Build Docker image
     - name: Build Docker image
