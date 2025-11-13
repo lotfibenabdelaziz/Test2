@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: api
-        image: your-docker-username/bike-prediction-api:latest
+        image: DOCKER_USERNAME/bike-prediction-api:latest
         ports:
         - containerPort: 5000
