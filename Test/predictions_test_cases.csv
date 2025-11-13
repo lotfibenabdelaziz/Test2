@@ -1,0 +1,4 @@
+Hour,Temperature,Humidity,Wind_speed,Visibility,Dew_point_temperature,Solar_Radiation,Rainfall,Snowfall,Seasons,Holiday,Functioning_Day,is_Holiday_WorkingDay,is_clear_weather,is_rainy_weather,is_snowy_weather,Month,Day,Weekday,DayOfYear,Predicted_Bike_Count
+9,18.5,60,1.5,1200,8.0,1.2,0.0,0.0,Summer,No Holiday,Yes,No,Yes,No,No,7,14,1,196,884
+17,25.0,45,3.0,1500,12.0,2.0,0.0,0.0,Summer,No Holiday,Yes,No,Yes,No,No,7,14,1,196,1925
+7,5.0,80,2.0,800,2.0,0.5,1.0,0.0,Winter,Holiday,No,Yes,No,Yes,No,12,25,2,359,787

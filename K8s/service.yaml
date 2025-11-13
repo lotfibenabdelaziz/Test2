@@ -1,0 +1,13 @@
+# Example: service.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: bike-prediction-api-service
+spec:
+  type: NodePort
+  selector:
+    app: bike-prediction-api
+  ports:
+    - protocol: TCP
+      port: 5000
+      targetPort: 5000
